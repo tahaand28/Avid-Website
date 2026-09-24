@@ -1,0 +1,536 @@
+/* رسپانسیو سازی سایت */
+
+/* حالت موبایل و تبلت */
+@media (max-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+
+    /* استایل هدر سایت رسپانسیو سازی شده */
+
+    .header-top {
+        display: none;
+    }
+
+    .header-main {
+        width: 100%;
+        padding: 0px 20px;
+        position: sticky;
+
+    }
+
+    .header-main .menu nav {
+        display: none;
+    }
+
+    .header-main .icon-website img {
+        width: 40px;
+    }
+
+    .icon-website .title-icon span {
+        font-size: 1.4rem;
+    }
+
+    .icon-website .title-icon p {
+        font-size: .7rem;
+    }
+
+    .icon-website .title-icon span img {
+        width: 8px;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    .menu-icon-mobile {
+        display: inline-block;
+        border: none;
+        background: none;
+        transition: .5s ease;
+    }
+
+    .menu-icon-mobile:hover {
+        scale: .9;
+    }
+
+    .menu-icon-mobile svg {
+        width: 25px;
+    }
+
+    /* اتمام رسپانسیو هدر سایت */
+
+    /* استایل رسپانسیو hero */
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero {
+        padding: 30px 20px !important;
+        min-height: 100vh;
+        height: auto;
+
+    }
+
+    .description-hero {
+        width: 100% !important;
+        text-align: right;
+        font-size: 1rem !important;
+    }
+
+    .title-hero-container {
+        width: 100%;
+    }
+
+    .title-hero-container .bage-hero {
+        font-size: .8rem;
+    }
+
+    .main-title-hero h1 {
+        font-size: 2.3rem;
+    }
+
+    /* استایل اختصاصی دکمه  */
+
+    .button-main-style {
+        font-size: .8rem;
+    }
+
+    /* دوم استایل اختصاصی دکمه  */
+
+    .button-main-style-secondry {
+        font-size: .8rem;
+    }
+
+    .button-hero {
+        width: 100%;
+        gap: 5px;
+    }
+
+    .button-hero button {
+        width: 100%;
+    }
+
+    .btn-hero {
+        font-size: .7rem;
+    }
+
+    .nazarat-hero {
+        width: 100%;
+        gap: 5px;
+    }
+
+    .nazarat-hero .circle-box {
+
+        right: -25%;
+    }
+
+    .images .img-circle:nth-child(1) {
+        position: relative;
+        right: 0;
+    }
+
+    .images .img-circle:nth-child(2) {
+        position: relative;
+        right: -5%;
+    }
+
+    .images .img-circle:nth-child(3) {
+        position: relative;
+        right: -15%;
+    }
+
+    /* اتمام استایل سکشن اول hero */
+
+    /* استایل برای سکشن دوم */
+
+    .our-services {
+        width: 100%;
+        padding: 100px 25px;
+    }
+
+    .main-our-services {
+        width: 100%;
+    }
+
+    .cart-services {
+        flex-wrap: wrap;
+    }
+
+    .item-cart-section-2 {
+        width: 100%;
+    }
+
+    .main-our-services .title-services h4 {
+        font-size: 1.7rem;
+    }
+
+    /* اتمام استایل سکشن دوم */
+
+    /* استایل سکشن سوم */
+    .about-container {
+        padding: 50px 25px;
+
+    }
+
+    .about-main {
+        flex-direction: column;
+
+    }
+
+    .about-main .title-about H3 {
+        font-size: 1.5rem;
+    }
+
+    .about-main .title-about button {
+        width: 100%;
+    }
+
+    .border-slate {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .border-slate .item {
+        border: none;
+    }
+
+    /* اتمام استایل سکشن سوم */
+
+    /* استایل سکشن چهاذم */
+
+    .portflio-main .top-portflio .item-1-t-p,
+    .item-2-t-p {
+        flex-direction: column;
+    }
+
+    .top-portflio .item-1-t-p div .title-portflio p {
+        font-size: .8rem;
+    }
+
+    .top-portflio .item-1-t-p div h3 {
+        font-size: 1.7rem !important;
+    }
+
+    .cart-portflio {
+        flex-direction: column;
+    }
+
+    .portflio-container {
+        padding: 50px 25px;
+    }
+
+    .top-portflio .item-2-t-p {
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .top-portflio .item-2-t-p a {
+        width: 100%;
+    }
+
+    .banner-portflio {
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    .banner-box-1 h6 {
+        font-size: .7rem;
+    }
+
+    .banner-portflio .banner-box-1 h4 {
+        font-size: 1.5rem;
+    }
+
+    .banner-portflio .banner-box-1 p {
+        font-size: .8rem;
+        margin: 10px 10px;
+    }
+
+    .banner-portflio button {
+        font-size: .8rem;
+    }
+
+    .banner-portflio button svg {
+        width: 18px;
+    }
+
+    /* اتمام استایل سکشن چهارم */
+
+    /* استایل سکشن پنجم  */
+    .flex-asked {
+        flex-direction: column;
+    }
+
+    .flex-asked .item-ask {
+        width: 100% !important;
+        text-align: right;
+        padding: 15px 18px;
+
+    }
+
+    .flex-asked .item-ask span {
+        width: 18px;
+        height: 18px;
+    }
+
+    .flex-asked .item-ask p {
+        font-size: .8rem;
+    }
+
+    .Asked-container {
+        padding: 50px 20px;
+    }
+
+    .flex-asked .box-ask {
+        padding: 0;
+    }
+
+    .title-asked h3 {
+        font-size: 1.7rem !important;
+    }
+
+    .call-me {
+        width: 100%;
+    }
+
+    .flex-asked .call-me .box-ask {
+        padding: 15px;
+
+    }
+
+    /* اتمام استایل سکشن پنجم */
+
+    /* استایل سکشن ششم */
+
+    .communication {
+        padding: 50px 25px;
+    }
+
+    .communication .main-communication .title-communication h6 {
+        font-size: .8rem;
+    }
+
+    .communication .main-communication .title-communication h3 {
+        font-size: 1.7rem;
+    }
+
+    .carts-communication {
+        flex-direction: column;
+    }
+
+    /* اتمام استایل سکشن ششم */
+    /* استایل سکشن هفتم */
+    .experts {
+        padding: 50px 25px;
+    }
+
+    .main-experts .title-experts h6 {
+        font-size: .8rem;
+    }
+
+    .main-experts .title-experts h3 {
+        font-size: 1.7rem;
+    }
+
+    .carts-experts {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    /* اتمام استایل سکشن هفتم */
+
+    /* استایل سکشن هشتم */
+
+    .testimonials {
+        padding: 50px 25px;
+        background: #F8F9FA;
+    }
+
+    .testimonials .main-testimonials .title-testimonials h6 {
+        font-size: .8rem;
+    }
+
+    .testimonials .main-testimonials .title-testimonials h3 {
+        font-size: 1.7rem;
+    }
+
+    .cart-testimonials {
+        flex-direction: column;
+    }
+
+
+
+
+    /* اتمام استایل سکشن هشتم */
+
+    /* استایل سکشن نهم */
+
+    .awards {
+        padding: 50px 25px;
+    }
+
+    .awards .main-awards .title-awards h6 {
+        font-size: .8rem;
+    }
+
+    .awards .main-awards .title-awards h3 {
+        font-size: 1.7rem;
+    }
+
+    .cart-awards {
+        flex-direction: column;
+    }
+
+    /* اتمام استایل سکشن نهم */
+
+    /* استایل سکشن دهم */
+
+    .blog-container {
+        flex-direction: column;
+        padding: 50px 25px;
+    }
+
+    .top-blog {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .top-blog .blog-title h6::before {
+        content: "";
+        display: block;
+        width: 70px;
+        height: 5px;
+        background: #FF6B1A;
+        margin-bottom: 15px;
+        border-radius: 999px;
+        margin: auto;
+    }
+
+    .top-blog .blog-title h3 {
+        font-size: 1.7rem;
+    }
+
+    .right-blog {
+        margin-top: 10px;
+    }
+
+    .grid-blog {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .carts-item-blog {
+        width: 100%;
+    }
+
+    .blog-container .grid-blog .right-grid-blog {
+        width: 100%;
+    }
+
+    .blog-container .grid-blog .right-grid-blog .text-blog-cart h4 {
+        font-size: 1.4rem;
+    }
+
+
+    .blog-container .grid-blog .right-grid-blog .text-blog-cart {
+        margin-bottom: 20px;
+    }
+
+    .main-flex-blog .left-grid-blog .carts-item-blog div h3 {
+        font-size: .8rem;
+    }
+
+    .main-flex-blog .left-grid-blog .carts-item-blog div p {
+        font-size: .7rem;
+    }
+
+    .main-flex-blog .left-grid-blog .carts-item-blog div {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .main-flex-blog {
+        width: 100%;
+    }
+
+    /* اتمام استایل سکشن دهم */
+
+
+    /* اتمام استایل سکشن آخر */
+
+
+    .main-banner-11 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-banner-11 .right-banner h3 {
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 900;
+    }
+
+    .banner-11 {
+        padding: 50px 25px;
+    }
+
+    .main-banner-11 button {
+        font-size: .8rem;
+        width: 100%;
+        margin: 15px;
+
+    }
+
+    /* استایل فوتر سایت */
+    .bottom-footer {
+        flex-direction: column;
+    }
+
+    .item-footer {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .item-footer .logo-footer {
+        width: 100%;
+        gap: 40px;
+    }
+
+    .main-footer {
+        padding: 30px 25px;
+    }
+
+    .menu-footer {
+        width: 100%;
+    }
+
+    .item-footer .khabarnameh {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .item-footer .khabarnameh form input {
+        width: 100%;
+        margin: 0;
+    }
+
+    .item-footer .khabarnameh form button {
+        right: 0;
+    }
+
+    .bottom-footer p {
+        font-size: .6rem;
+        margin-bottom: 10px;
+    }
+
+    /* اتمام استایل فوتر */
+}
