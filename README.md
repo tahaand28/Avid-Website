@@ -1,5 +1,4 @@
 # Avid-Website
-# Avid Website
 
 A modern corporate landing page focused on clean UI, structured layout, responsive design, and a lightweight implementation using pure HTML and CSS.
 
